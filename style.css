@@ -1,0 +1,91 @@
+body{
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #2C2B3D;
+  margin: 0;
+}
+
+.page{
+  width: 1083px;
+  margin: 75px auto 0;
+}
+
+nav{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav ul{
+  padding: 0;
+  display: flex;
+  gap: 64px
+}
+
+li{
+  list-style: none;
+  font-size: 14px;
+  
+}
+
+.logo{
+  font-size: 24px;
+}
+
+.logo, h1, li a, .insta{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main{
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main section{
+  width: 605px;
+}
+
+main section h1{
+  font-size: 36px;
+  line-height: 40px;
+}
+
+main section p{
+  margin-top: 59px;
+  font-family: "Open Sans";
+  color: #C2C2C2;
+  text-align: center;
+  line-height: 28px;
+}
+
+span{
+  color: #00BFA6;
+}
+
+#line{
+  margin: 167px auto 27px;
+  border: 1px solid #00BFA6;
+  width: 570px;
+}
+
+footer p{
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cadeadinho{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+
+
+
+
+
+
